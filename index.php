@@ -1,3 +1,10 @@
+<?php
+
+    define('NAME', 'Hachem');
+    $age = 23;
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,5 +15,7 @@
 </head>
 <body>
     <h1><?php echo 'Hello World!'; ?></h1>
+    <div><?php echo NAME; ?></div>
+    <div><?php echo $age; ?></div>
 </body>
 </html>
